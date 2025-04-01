@@ -1,7 +1,7 @@
 # Comparing the microbiome abundance landscape between WGS and RNA-seq platforms using the same samples
 This repository contains Matlab codes for reproducing work cited below. 
 #### Citation
-Githaka, J.M. (2025) ‘Misuse’ of RNA-seq data in microbiome studies: A cautionary tale of poly(A). *mLife*. https://doi.org/ 
+Githaka, J.M. (2025) ‘Misuse’ of RNA-seq data in microbiome studies: A cautionary tale of poly(A). *mLife*. In Press 
 
 # Code
 Made in MATLAB R2022a/b
