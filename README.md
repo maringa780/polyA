@@ -4,6 +4,7 @@ This repository contains Matlab codes for reproducing work cited below.
 Githaka, J.M. (2025) ‘Misuse’ of RNA-seq data in microbiome studies: A cautionary tale of poly(A). *mLife*. https://doi.org/ 
 
 # Code
+Made in MATLAB R2022a/b
 #### Step 1: Setup
 Download all files in this repository.
 Files *TableS8_T2T_KrakenUniq_BIO_Fullset.csv* and *TableS9_metadata_KrakenUniq_BIO_Fullset.csv* are part of Supplementary Tables in Sepich-Poore, G.D., McDonald, D., Kopylova, E. *et al.* Robustness of cancer microbiome signals over a broad range of methodological variation. *Oncogene* 43, 1127–1148 (2024).
