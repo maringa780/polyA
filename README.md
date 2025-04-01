@@ -102,7 +102,7 @@ PCA WGS1 vs WGS2
 [~, zscores, pcvars] = pca(sqrt(D(:,idx))');
 pcvars=pcvars./sum(pcvars) * 100;pcvars(1)
 colors = distinguishable_colors(numel(unique(S(idx))));
-figure('Position',[1000 1062 363 276]);
+figure('Position',[1000 200 363 276]);
 gscatter(zscores(:,1),zscores(:,2),S(idx)',colors,'.'),box off%legend off
 xlabel(['PC1 (' num2str(round(pcvars(1),2)) '%)']);
 ylabel(['PC2 (' num2str(round(pcvars(2),2)) '%)']);
@@ -112,7 +112,7 @@ PCA WGS vs RNA
 [~, zscores, pcvars] = pca(sqrt(D(:,~idx))');
 pcvars=pcvars./sum(pcvars) * 100;pcvars(1)
 colors = distinguishable_colors(numel(unique(S(~idx))));
-figure('Position',[1000 1062 363 276]);
+figure('Position',[1000 200 363 276]);
 gscatter(zscores(:,1),zscores(:,2),S(~idx)',colors,'.'),box off%legend off
 xlabel(['PC1 (' num2str(round(pcvars(1),2)) '%)']);
 ylabel(['PC2 (' num2str(round(pcvars(2),2)) '%)']);
